@@ -5,7 +5,7 @@ export interface ContentSecurityPolicyMiddlewareConfiguration {
   nonce?: string; // Optional nonce value, if not provided a random UUID will be generated
   defaultSrc?: string; // Optional: default-src directive, if not provided a default will be used
   scriptSrc?: string; // Optional: script-src directive, if not provided a default will be used
-  objectSrc?: string; // Optional: object-src directive, if not provided a default will
+  objectSrc?: string; // Optional: object-src directive, if not provided a default will be used
   baseUri?: string; // Optional: base-uri directive, if not provided a default will be used
 }
 
