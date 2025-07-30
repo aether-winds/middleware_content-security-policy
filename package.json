@@ -1,0 +1,38 @@
+{
+  "name": "@aether-winds/middleware-content-security-policy",
+  "version": "0.0.1",
+  "description": "The Content Security Policy for applications built within this github repo.",
+  "scripts": {
+    "test": "mocha src/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aether-winds/middleware_content-security-policy.git"
+  },
+  "author": "Patrick Ortiz <pogithub@gmail.com>",
+  "license": "See LICENSE",
+  "bugs": {
+    "url": "https://github.com/aether-winds/middleware_content-security-policy/issues"
+  },
+  "homepage": "https://github.com/aether-winds/middleware_content-security-policy#readme",
+  "devDependencies": {
+    "@types/chai": "^5.2.2",
+    "@types/express": "^5.0.3",
+    "@types/hbs": "^4.0.5",
+    "@types/mocha": "^10.0.10",
+    "@types/sinon": "^17.0.4",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "nodemon": "^3.1.10",
+    "sinon": "^21.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=22.14.0 <23.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "hbs": "^4.2.0"
+  }
+}
